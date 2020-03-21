@@ -116,7 +116,12 @@ section.section_1_1
 	padding-left:100px;
 	
 }
-
+img.Main
+{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+}
 img.logo
 {
 	height: 40px;
