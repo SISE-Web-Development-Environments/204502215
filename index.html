@@ -4,237 +4,39 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="author" content="Matan Anavi" />
 		<title>
 			Matan Anavi Site
 		</title>
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/custom.js"></script>
 	</head>
 	
 	<body>
-		
-		<div id="navbar">
-			<li><img class="logo" src="logoGreen.png"></li>
-			<li><a href ="#home">HOME</a></li>
-			<li><a href="#about_personal">PERSONAL</a></li>
-			<li><a href="#about_professional">PROFFESIONAL</a></li>
-			<li><a href="#photos">MY PHOTOS</a></li>
-			<li><a href="#playlist">MY PLAYLIST</a></li>
-			<li><a href="#like">LIKE</a></li>
-			<li><a href="#qrcoder">QR CODE</a></li>
-			<li><a href="#spa">Q&A</a></li>
-			<li><a href="#contact">CONTACT ME</a></li>
+		<div class="container">
+			<header class="clearfix">
+			<span> Text </span>
+			<h1>Title</h1>
+			<nav>
+				<!--here i want to put the navbar -->
+			</nav>
+			</header>
+			<div id="cbp-fbscroller" class="cbp-fbscroller">
+				<nav>
+					<a href="#fbsection1" class="cbp-fbcurrent">Section 1</a>
+					<a href="#fbsection2">Section 2</a>
+					<a href="#fbsection3">Section 3</a>
+					<a href="#fbsection4">Section 4</a>
+					<a href="#fbsection5">Section 5</a>
+				</nav>
+				<section id="fbsection1"></section>
+				<section id="fbsection2"></section>
+				<section id="fbsection3"></section>
+				<section id="fbsection4"></section>
+				<section id="fbsection5"></section>
+			</div>
 		</div>
-		<div class ="main">
-		<img class ="Main" src="MainMe.png">
-			<section id="about_personal" class="section_1">
-					<h1 class = "font_0">
-					I
-					<span class="color_18">
-					'
-					</span>
-					M
-					</h1>
-					<h1 class = "font_0" >
-					MATAN
-					<br/>
-					ANAVI
-					<span class="color_18">
-					.
-					</span>
-					</h1>
-					</br>
-					</br>
-					<h5 class="font_5">INFORMAITION SYSTEM STUDENT</h5>
-					<h5 class="font_5">BEN GURION UNIVERSITY</h5>
-					</br>
-					
-			</section>
-			<section class= "section_1_1">
-				<div class ="paragraph_0">
-				<img class="logo_1" src="logoGreen.png">
-				</br>
-				<text class="text_1">
-					I'M A PARAGRAPH. PUT SOME TEXT HERE.
-				</text>
-					
-				</div>
-			</section>
-			
-			<section id="about_professional" class="section">
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-					about me
-				<br/>
-				<br/>
-				<br/>
-			</section>
-
-			<section id="photos" class="section">
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-					my photos
-				<br/>
-				<br/>
-				<br/>
-			</section>
-
-			<section id="playlist" class="section">
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-					my playlist
-				<br/>
-				<br/>
-				<br/>
-			</section>
-
-			<section id="like" class="section">
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-					give me a like
-				<br/>
-				<br/>
-				<br/>
-			</section>
-
-			<section id="qrcoder" class="section">
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-					scan my code
-				<br/>
-				<br/>
-				<br/>
-			</section>
-
-			<section id="spa" class="section">
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-					ans
-				<br/>
-				<br/>
-				<br/>
-			</section>
-
-			<section id="contact" class="section">
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-					contact me
-				<br/>
-				<br/>
-				<br/>
-			</section>
-		</div>
-
-		<script type="text/javascript">
-			$(function(){
-			  $("#nav a").click(function(e){
-				e.preventDefault();
-				$('html,body').scrollTo(this.hash,this.hash); 
-			  });
-			});
-		</script>
-		<script type="text/javascript">
-			 $(document).scroll(function() {
-				$('#menu').toggle($(this).scrollTop()>1000)
-			 });​
-		 </script>
+	
 	</body>
 </html>
