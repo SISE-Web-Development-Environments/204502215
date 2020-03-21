@@ -35,17 +35,13 @@ body,
 	background-color: #6f7a8a;
 }
 
-.scroller > nav a:after {
-	content: '';
-	position: absolute;
+
+.scroller > nav a.current{
+	color:#00D646;
 }
 
-.scroller > nav a:hover:after {
-	background: rgba(255,255,255,0.6);
-}
-
-.scroller > nav a:current:after{
-	color:#BEC7D5;
+.scroller > nav a.current:hover{
+	color:#00D646;
 }
 
 .scroller > nav a:hover
