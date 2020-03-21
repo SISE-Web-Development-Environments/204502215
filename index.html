@@ -10,33 +10,35 @@
 		</title>
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/custom.js"></script>
+		
 	</head>
 	
 	<body>
 		<div class="container">
 			<header class="clearfix">
-			<span> Text </span>
-			<h1>Title</h1>
-			<nav>
-				<!--here i want to put the navbar -->
-			</nav>
 			</header>
 			<div id="scroller" class="scroller">
 				<nav>
-					<a href="#fbsection1">Section 1</a>
-					<a href="#fbsection2">Section 2</a>
-					<a href="#fbsection3">Section 3</a>
-					<a href="#fbsection4">Section 4</a>
-					<a href="#fbsection5">Section 5</a>
+					<a href="#section1" class ="current">About Me</a>
+					<a href="#section2">My Photos</a>
+					<a href="#section3">My Playlist</a>
+					<a href="#section4">Like</a>
+					<a href="#section5">QR Code</a>
+					<a href="#section6">Contact Me</a>
 				</nav>
-				<section id="fbsection1"></section>
-				<section id="fbsection2"></section>
-				<section id="fbsection3"></section>
-				<section id="fbsection4"></section>
-				<section id="fbsection5"></section>
+				<section id="section1"></section>
+				<section id="section2"></section>
+				<section id="section3"></section>
+				<section id="section4"></section>
+				<section id="section5"></section>
+				<section id="section6"></section>
 			</div>
 		</div>
-	
+		<script src="js/fixedScrollLayout.js"></script>
+		<script>
+			$(function() {
+				fixedScrollLayout.init();
+			});
+		</script>
 	</body>
 </html>

@@ -1,18 +1,59 @@
 /* Set all parents to full height */
-html, body, 
+html,
+body, 
 .container,
 .scroller,
 .scroller section { 
 	height: 100%; 
+
 }
 
-/* The nav is fixed on the right side  and we center it by translating it 50% 
-(we don't know it's height so we can't use the negative margin trick) */
 
+.scroller > nav {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	top:0px;
+	left:0px;
+	overflow: hidden;
+	background-color: #6f7a8a;
+	-webkit-box-shadow: 0px 14px 10px 0px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 14px 10px 0px rgba(0,0,0,0.64);
+	box-shadow: 0px 14px 10px 0px rgba(0,0,0,0.64);	
+}
 
+.scroller > nav a{
+	display: block, inline;
+	position: relative;
+	color: #909aa8;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans serif;
+	float: left;
+	background-color: #6f7a8a;
+}
 
-/* background-attachment does the trick */
-.scroller section {
+.scroller > nav a:after {
+	content: '';
+	position: absolute;
+}
+
+.scroller > nav a:hover:after {
+	background: rgba(255,255,255,0.6);
+}
+
+.scroller > nav a:current:after{
+	color:#BEC7D5;
+}
+
+.scroller > nav a:hover
+{
+	color:#BEC7D5;
+}
+
+.scroller section{
 	position: relative;
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -20,22 +61,26 @@ html, body,
 	background-attachment: fixed;
 }
 
-#fbsection1 {
+#section1 {
 	background-image: url(../images/1.jpg);
 }
 
-#fbsection2 {
+#section2 {
 	background-image: url(../images/2.jpg);
 }
 
-#fbsection3 {
+#section3 {
 	background-image: url(../images/3.jpg);
 }
 
-#fbsection4 {
+#section4 {
 	background-image: url(../images/4.jpg);
 }
 
-#fbsection5 {
+#section5 {
 	background-image: url(../images/5.jpg);
+}
+
+#section6 {
+	background-image: url(../images/6.jpg);
 }
