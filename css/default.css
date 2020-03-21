@@ -1,0 +1,141 @@
+#navbar
+{
+	overflow: hidden;
+	background-color: #6f7a8a;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	-webkit-box-shadow: 0 25px 12px -10px #697382;
+       -moz-box-shadow: 0 25px 12px -10px #697382;
+            box-shadow: 0 25px 12px -10px #697382;
+}
+li
+{
+	display: inline;
+	float: left;
+}
+
+#navbar a{
+	
+	display: block;
+	color: #909aa8;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans serif;
+}
+
+#navbar a:hover
+{
+	color:#BEC7D5;
+}
+
+h1
+{
+	margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+h1.font_0
+{
+	font-style:normal;
+	font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+	fonr-stretch: normal;
+	font-size: 65px;
+	font-family:lulu-clean-w01-one-bold,sans-serif;
+	color: #FFFFFF
+}
+
+h5
+{
+	margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+h5.font_5
+{
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 24px;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
+    color: #FFFFFF;
+}
+
+span.color_18
+{
+	color: #00D646
+}
+
+
+#main
+{
+	margin-top:30px;
+}
+
+body{
+	background-color: #6f7a8a;
+	font-size: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+	color: #FFFFFF;
+	padding-top:150px;
+}
+
+div.paragraph_0
+{
+	width: 900px;
+	height: auto;  
+	background-color: #333b50;
+	box-shadow:
+		0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+		0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+		0 12.5px 10px rgba(0, 0, 0, 0.06),
+		0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+		0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+		0 100px 80px rgba(0, 0, 0, 0.12);
+	text-align:center;
+
+}
+section
+{
+	padding-left:200px;
+}
+section.section_1_1
+{
+	padding-left:100px;
+	
+}
+img.Main
+{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+}
+img.logo
+{
+	height: 40px;
+	padding: 5px;
+	
+}
+
+img.logo_1
+{
+	height: 50px;
+	padding: 30px;
+	
+}
+text.text_1
+{
+	font-size:12px
+}
