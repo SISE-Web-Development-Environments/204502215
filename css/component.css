@@ -55,10 +55,14 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	margin-left: -10px;
+	margin-right: -10px;
+	
 }
 
 #section1 {
 	background-image: url(../images/1.jpg);
+
 }
 
 #section2 {
