@@ -67,6 +67,7 @@ body{
 
 #section2 {
 	background-image: url(../images/2.jpg);
+	
 }
 
 #section3 {
@@ -135,11 +136,8 @@ body{
 
 .gallery{
 	display:grid;
-	place-content:center;
 	overflow:hidden;
-	width: 100%:
-	height:100%;
-
+	width: 100%;
 }
 
 .w {
@@ -254,6 +252,14 @@ transitions
 	padding-left:10%;
 	padding-bottom:none;
 }
+
+.PlaylistContainer{
+	position: relative;
+	padding-top:5%;
+	padding-left:10%;
+	padding-bottom:none;
+}
+
 
 
 
