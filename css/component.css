@@ -138,6 +138,7 @@ body{
 	display:grid;
 	overflow:hidden;
 	width: 100%;
+	place-content:center;
 }
 
 .w {
